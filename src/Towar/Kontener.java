@@ -1,3 +1,5 @@
+package Towar;
+
 public class Kontener {
     private Towar czesciElektroniczne;
     private Towar telefonyKomorkowe;

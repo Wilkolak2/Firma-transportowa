@@ -1,3 +1,5 @@
+package Towar;
+
 public class Towar {
     private String czesciElektroniczne;
     private String telefonyKomorkowe;
