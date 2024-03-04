@@ -1,8 +1,14 @@
 package Towar;
 
 public class Kontener {
-    private Towar czesciElektroniczne;
-    private Towar telefonyKomorkowe;
-    private Towar buty;
-    private Towar oddziez;
+
+    private Towar towar;
+
+    public Kontener(Towar towar) {
+        this.towar = towar;
+    }
+
+    public Towar getTowar() {
+        return towar;
+    }
 }

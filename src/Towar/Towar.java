@@ -1,8 +1,5 @@
 package Towar;
 
-public class Towar {
-    private String czesciElektroniczne;
-    private String telefonyKomorkowe;
-    private String buty;
-    private String oddziez;
+public enum Towar {
+    BANANY, KONSOLE, GRANATY, MEBLE
 }
